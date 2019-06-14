@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Narcissistic Check</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1>Narcissistic Number Check</h1>
+    </header>
+    <main class="main-content">
+        <div class="hint">
+            <p>
+                <em>Hint:</em> A Narcissistic Number is a number which is the sum of its own digits, each raised to
+                the power of the number of digits.
+            </p>
+            <h4>For example:</h4>
+            <p>
+                <ol>
+                    <li>153 (3 digits): 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 1 + 125 + 27 = 153</li>
+                    <li>1634 (4 digits): 1<sup>4</sup> + 6<sup>4</sup> + 3<sup>4</sup> + 4<sup>4</sup> = 1 + 1296 + 81
+                        + 256 = 1634</li>
+                </ol>
+            </p>
+        </div>
+        <div class="main-checker">
+            <p>Please enter positive integers only.</p>
+            <div>
+                <input type="number" name="user_input" id="userInput" placeholder="Enter number here" min="1">
+            </div>
+            <div>
+                <button id="check">Check</button>
+            </div>
+            <div class="result-display">
+                <p id="result"></p>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2019 Andela Code Challenge.</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

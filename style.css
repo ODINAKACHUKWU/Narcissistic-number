@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.main-header {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(40, 0, 61);
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.main-header>h1 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.main-content {
+    margin: 0;
+    height: 580px;
+    padding: 20px;
+    background-color: rgb(179, 0, 219);
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+em {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.hint {
+    margin: 0px auto 20px auto;
+    width: 700px;
+    padding: 3px 80px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.main-checker {
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    padding: 50px 20px 20px 20px;
+    border: 1px solid white;
+    border-radius: 1em;
+    text-align: center;
+    background-color: rgb(70, 0, 107);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-checker>p {
+    color: white;
+    padding-top: 20px;
+}
+
+.main-checker>p,
+.main-checker>p:first-child+div {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.main-checker>p:first-child+div+div {
+    padding-bottom: 30px;
+}
+
+#check {
+    font-size: 1.2em;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(40, 0, 61);
+    border: 1px solid grey;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+#check:hover {
+    background-color: rgb(27, 0, 41);
+    color: rgb(255, 5, 251);
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    text-align: start;
+    text-indent: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+input:placeholder-shown {
+    font-style: italic;
+    font-weight: 100;
+}
+
+input:focus {
+    border-color: purple;
+}
+
+.result-display {
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.result-display>p {
+    margin: 20px 0px;
+}
+
+.main-footer {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40, 0, 61);
+    text-align: center;
+    font-size: 1em;
+    border-top: 2px solid white;
+}
+
+.main-footer>p {
+    margin: 0;
+    padding-top: 30px;
+    color: white;
+}
